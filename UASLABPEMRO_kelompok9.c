@@ -80,7 +80,7 @@ int main() {
                         printf("Pilihan tidak valid. Silakan pilih kembali.\n");
                 }
             } while (pilihan != 4);
-            break; // Keluar dari loop jika input adalah 4 digit angka
+            break; // Keluar dari loop jika input valid
         } else {
             printf("Input tidak valid.\n");
         }

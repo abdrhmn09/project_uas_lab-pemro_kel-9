@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include <stdio.h> // Mengimpor fungsi input dan output standar.
+#include <string.h> // Mengimpor fungsi manipulasi string.
+#include <stdlib.h> // Mengimpor fungsi standar, termasuk manajemen memori.
 
-#define MAX_LENGTH 100
-#define MAX_USERS 100
-#define MAX_BARANG 100
+#define MAX_LENGTH 100 // Mendefinisikan nilai maksimal umum untuk panjang array.
+#define MAX_USERS 100 // Mendefinisikan jumlah maksimal pengguna yang didukung.
+#define MAX_BARANG 100 // Mendefinisikan jumlah maksimal barang yang didukung.
 
 typedef struct {
     char kode_barang[10];
